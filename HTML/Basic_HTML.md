@@ -6,19 +6,19 @@ Tags: Codebase, Web Structure
 
 HTML stands for HyperText Markup Language. It is the standard markup language used for creating and structuring web pages and applications on the World Wide Web. HTML uses a set of tags to define the structure and layout of a web document, such as headings, paragraphs, lists, images, links, and more.
 
-     HTML files are plain text documents that consist of a series of elements enclosed in angle brackets (< >). These elements are used to define the structure and content of the web page. For example, the **`<h1>`** tag is used to define a heading, the **`<p>`** tag is used to define a paragraph, and the **`<img>`** tag is used to insert an image.
+HTML files are plain text documents that consist of a series of elements enclosed in angle brackets (< >). These elements are used to define the structure and content of the web page. For example, the **`<h1>`** tag is used to define a heading, the **`<p>`** tag is used to define a paragraph, and the **`<img>`** tag is used to insert an image.
 
-     HTML tags can also include attributes, which provide additional information about an element. Attributes are defined within the opening tag and can specify things like the source of an image, the target of a link, or the dimensions of an element.
+HTML tags can also include attributes, which provide additional information about an element. Attributes are defined within the opening tag and can specify things like the source of an image, the target of a link, or the dimensions of an element.
 
-     Web browsers interpret HTML documents and render them as visually appealing web pages. HTML is often used in conjunction with CSS (Cascading Style Sheets) and JavaScript to enhance the appearance and functionality of web pages. CSS is used to define the presentation and layout of the HTML elements, while JavaScript is used to add interactivity and dynamic behavior to web pages.
+Web browsers interpret HTML documents and render them as visually appealing web pages. HTML is often used in conjunction with CSS (Cascading Style Sheets) and JavaScript to enhance the appearance and functionality of web pages. CSS is used to define the presentation and layout of the HTML elements, while JavaScript is used to add interactivity and dynamic behavior to web pages.
 
-     Overall, HTML is the backbone of the web and is essential for creating and structuring the content of web pages.
+Overall, HTML is the backbone of the web and is essential for creating and structuring the content of web pages.
 
 ---
 
 # Structure of an HTML Document
 
-## The <!DOCTYPE html>
+## The `<!DOCTYPE html>`
 
      The **`<!DOCTYPE html>`** declaration is the very first line of an HTML document. It is not an HTML tag but rather an instruction to the web browser about the version of HTML being used in the document.
 
