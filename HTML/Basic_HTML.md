@@ -20,15 +20,15 @@ Overall, HTML is the backbone of the web and is essential for creating and struc
 
 ## The `<!DOCTYPE html>`
 
-     The **`<!DOCTYPE html>`** declaration is the very first line of an HTML document. It is not an HTML tag but rather an instruction to the web browser about the version of HTML being used in the document.
+The **`<!DOCTYPE html>`** declaration is the very first line of an HTML document. It is not an HTML tag but rather an instruction to the web browser about the version of HTML being used in the document.
 
-     The **`<!DOCTYPE html>`** declaration is used in HTML5 to specify that the document is written in the latest version of HTML, which is simply referred to as HTML5. It informs the browser to interpret the document using the rules and specifications of HTML5.
+The **`<!DOCTYPE html>`** declaration is used in HTML5 to specify that the document is written in the latest version of HTML, which is simply referred to as HTML5. It informs the browser to interpret the document using the rules and specifications of HTML5.
 
 ```html
 <!DOCTYPE html>
 ```
 
-     In Visual Studio Code (VSCode), you can use a shorthand notation to generate the basic structure of an HTML document. By typing **`!`** and pressing the **`Tab`** key, VSCode will generate the following code:
+In Visual Studio Code (VSCode), you can use a shorthand notation to generate the basic structure of an HTML document. By typing **`!`** and pressing the **`Tab`** key, VSCode will generate the following code:
 
 ```html
 <!DOCTYPE html>
@@ -50,9 +50,9 @@ Please note that the **`!`** shorthand is specific to the VSCode editor and is n
 
 ## The <main> element
 
-     The **`<html>`** element is the root element of an HTML page. It represents the entire HTML document and serves as the container for all other HTML elements. Every HTML document should have a single **`<html>`** element that wraps around all other elements.
+The **`<html>`** element is the root element of an HTML page. It represents the entire HTML document and serves as the container for all other HTML elements. Every HTML document should have a single **`<html>`** element that wraps around all other elements.
 
-     The **`<html>`** element is usually paired with the closing **`</html>`** tag to define the beginning and end of the HTML document. All other HTML elements, such as **`<head>`** and **`<body>`**, are contained within the **`<html>`** element.
+The **`<html>`** element is usually paired with the closing **`</html>`** tag to define the beginning and end of the HTML document. All other HTML elements, such as **`<head>`** and **`<body>`**, are contained within the **`<html>`** element.
 
 Here's an example of a basic HTML document structure with the **`<html>`** element:
 
@@ -79,7 +79,7 @@ The **`<html>`** element encapsulates the entire HTML document and provides the 
 
 ## The <head> element
 
-     The **`<head>`** element is a container element in HTML that contains meta-information about the document. It is located inside the **`<html>`** element but outside the **`<body>`** element. The content within the **`<head>`** element is not directly visible on the web page but provides important information and instructions for the browser and search engines.
+The **`<head>`** element is a container element in HTML that contains meta-information about the document. It is located inside the **`<html>`** element but outside the **`<body>`** element. The content within the **`<head>`** element is not directly visible on the web page but provides important information and instructions for the browser and search engines.
 
 Here are some common meta-information elements found within the **`<head>`** element
 
@@ -127,13 +127,13 @@ Here are some common meta-information elements found within the **`<head>`** ele
     </head>
     ```
     
-    These are just a few examples of the types of meta-information that can be included within the **`<head>`** element. It serves as a container for various elements that provide information about the document and help control its presentation and behavior.
+These are just a few examples of the types of meta-information that can be included within the **`<head>`** element. It serves as a container for various elements that provide information about the document and help control its presentation and behavior.
     
     ---
     
-    ## The <body> element
+    ## The `<body>` element
     
-         The **`<body>`** element is a container element in HTML that holds the visible content of a web page. It is located within the **`<html>`** element and follows the **`<head>`** element. The content placed within the **`<body>`** element is what users see and interact with when they visit the web page.
+The **`<body>`** element is a container element in HTML that holds the visible content of a web page. It is located within the **`<html>`** element and follows the **`<head>`** element. The content placed within the **`<body>`** element is what users see and interact with when they visit the web page.
     
     Here are some examples of common elements and content that can be placed within the **`<body>`** element:
     
