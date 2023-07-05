@@ -363,7 +363,7 @@ Lastly, using semantic HTML makes the code more readable and maintainable. By ch
         
 ## `<header>`
         
-The <header> tag is indeed used to mark up the top section of a web page. It helps create a clear separation between the header and the main content of the page, making it easier for users to understand and navigate the website.
+The `<header>` tag is indeed used to mark up the top section of a web page. It helps create a clear separation between the header and the main content of the page, making it easier for users to understand and navigate the website.
         
 By placing common elements such as the main title or logo, navigation links, and other relevant information within the <header> element, you establish a consistent layout across multiple pages of your site. This ensures that visitors can easily identify and access these important elements regardless of which page they are on.
         
@@ -393,7 +393,7 @@ By placing common elements such as the main title or logo, navigation links, and
         
 ## `<nav>`
         
-The <nav> tag is used to mark up a section of a web page that contains navigation links. It helps indicate to both users and search engines that the enclosed content is intended for navigation purposes. By wrapping your navigation links with the <nav> tag, you provide a semantic structure to the navigation section of your webpage
+The `<nav>` tag is used to mark up a section of a web page that contains navigation links. It helps indicate to both users and search engines that the enclosed content is intended for navigation purposes. By wrapping your navigation links with the <nav> tag, you provide a semantic structure to the navigation section of your webpage
         
 Moreover, using the <nav> tag also benefits users by providing a clear indication of where the navigation elements are located on the page. It helps them quickly identify and access the navigation menu, improving the overall user experience and making it easier for them to navigate through your website.
         
@@ -417,7 +417,7 @@ Moreover, using the <nav> tag also benefits users by providing a clear indicatio
         
 ## `<main>`
         
-The <main> tag is used to mark up the main content area of a web page. It helps indicate to both users and search engines which section of your page contains the primary content.
+The `<main>` tag is used to mark up the main content area of a web page. It helps indicate to both users and search engines which section of your page contains the primary content.
         
 Additionally, using the <main> tag benefits users by clearly identifying the primary content area of the page. It helps them focus on the essential information or the core message of the webpage. Screen readers and other assistive technologies also recognize the <main> tag, allowing users with disabilities to easily navigate to the main content of the page.
         
@@ -437,7 +437,7 @@ Additionally, using the <main> tag benefits users by clearly identifying the pri
         
 ## `<article>`
         
-The <article> tag is used to represent a standalone piece of content within an HTML document. It is typically used for content that can be independently distributed or syndicated, such as blog posts, news articles, forum posts, or product reviews.
+The `<article>` tag is used to represent a standalone piece of content within an HTML document. It is typically used for content that can be independently distributed or syndicated, such as blog posts, news articles, forum posts, or product reviews.
         
 The <article> tag helps to encapsulate and define a self-contained and meaningful unit of content within a larger document. It provides a semantic structure that aids in understanding the purpose and significance of the enclosed content. This is beneficial for both users and search engines, as it allows them to easily identify and distinguish individual articles or pieces of content within a webpage.
         
@@ -457,7 +457,7 @@ The <article> tag helps to encapsulate and define a self-contained and meaningfu
         
 ## `<aside>`
         
-The <aside> tag in HTML is used to mark up content that is related to the main content of a web page but is not considered an integral part of it. This section often contains supplementary or supporting information that is tangentially related to the primary content.
+The `<aside>` tag in HTML is used to mark up content that is related to the main content of a web page but is not considered an integral part of it. This section often contains supplementary or supporting information that is tangentially related to the primary content.
         
 The **`<aside>`** element is commonly used for things like:
         
@@ -501,9 +501,9 @@ The **`<section>`** element is commonly used for:
         
 ## `<footer>`
         
-The <footer> tag in HTML is used to mark up the bottom section of a web page. It represents the footer area of the webpage, which typically contains information related to the page itself, such as copyright notices, contact details, legal information, navigation links, or links to social media profiles.
+The `<footer>` tag in HTML is used to mark up the bottom section of a web page. It represents the footer area of the webpage, which typically contains information related to the page itself, such as copyright notices, contact details, legal information, navigation links, or links to social media profiles.
         
-The <footer> element provides a semantic structure to the footer section of a webpage, allowing you to distinguish it from the main content. It helps in organizing and presenting important information related to the page or website.
+The `<footer>` element provides a semantic structure to the footer section of a webpage, allowing you to distinguish it from the main content. It helps in organizing and presenting important information related to the page or website.
         
         ```
         <!-- Non-semantic footer -->
@@ -517,13 +517,13 @@ The <footer> element provides a semantic structure to the footer section of a we
         </footer>
         ```
         
-## `<d****etails>` and `<Summary****>`
+## `<details>` and `<Summary>`
         
-The <details> and <summary> tags in HTML are used together to create a collapsible section of content, allowing users to show or hide the details as needed.
+The `<details>` and `<summary>` tags in HTML are used together to create a collapsible section of content, allowing users to show or hide the details as needed.
         
-The <summary> tag is used to mark up the title or heading of the collapsible section. It provides a brief description or label for the content that can be toggled.
+The `<summary>` tag is used to mark up the title or heading of the collapsible section. It provides a brief description or label for the content that can be toggled.
         
-The <details> tag is used to wrap the content that should be collapsible. It contains the actual details or additional information that can be expanded or collapsed.
+The `<details>` tag is used to wrap the content that should be collapsible. It contains the actual details or additional information that can be expanded or collapsed.
         
         ```
         <details>
@@ -532,11 +532,11 @@ The <details> tag is used to wrap the content that should be collapsible. It con
         </details>
         ```
         
-## `<f****igure>` and `<figcaption>****`
+## `<figure>` and `<figcaption>`
         
-The <figure> and <figcaption> tags in HTML are used together to mark up a self-contained piece of content that is referenced from the main content of a web page.
+The `<figure>` and `<figcaption>` tags in HTML are used together to mark up a self-contained piece of content that is referenced from the main content of a web page.
         
-The <figure> tag is used to mark up the self-contained content, which can include images, illustrations, diagrams, videos, code snippets, or any other media that stands alone and is referenced from the main content. It's worth noting that the <figure> and <figcaption> tags are not limited to images. They can be used for any type of self-contained content that requires a caption or description.
+The `<figure>` tag is used to mark up the self-contained content, which can include images, illustrations, diagrams, videos, code snippets, or any other media that stands alone and is referenced from the main content. It's worth noting that the `<figure>` and `<figcaption>` tags are not limited to images. They can be used for any type of self-contained content that requires a caption or description.
         
         ```
         <figure>
@@ -575,11 +575,11 @@ By using the **`<time>`** tag, you provide semantic meaning to the date and time
         
 It's important to note that the visual presentation of the **`<time>`** tag is not defined by default. You can style it using CSS to match your desired design.
         
-## `**<progress>**`
+## `<progress>`
         
-The **`<progress>`** tag in HTML is used to mark up a progress bar, indicating the completion status or progress of a task or process. It provides a visual representation of the progress, making it easier for users to understand the current state of an ongoing operation.
+The `<progress>` tag in HTML is used to mark up a progress bar, indicating the completion status or progress of a task or process. It provides a visual representation of the progress, making it easier for users to understand the current state of an ongoing operation.
         
-The **`<progress>`** tag requires two attributes: **`value`** and **`max`**. The **`value`** attribute specifies the current progress value, while the **`max`** attribute defines the maximum value or completion point of the task.
+The `<progress>` tag requires two attributes: `value` and `max`. The `value` attribute specifies the current progress value, while the `max` attribute defines the maximum value or completion point of the task.
         
         ```
         <h1>Web Page Title</h1>
@@ -590,18 +590,18 @@ The **`<progress>`** tag requires two attributes: **`value`** and **`max`**. The
         
 ## `<div>` and `<span>`
         
-The **`<div>`** and **`<span>`** tags in HTML are generic container elements that do not have any inherent semantic meaning. They are commonly used as layout elements or wrappers to group and style other elements or content on a web page.
+The `<div>` and `<span>` tags in HTML are generic container elements that do not have any inherent semantic meaning. They are commonly used as layout elements or wrappers to group and style other elements or content on a web page.
         
 Here's a brief description of each tag:
         
-- **`<div>`**: The **`<div>`** tag is a block-level element that is used to create a division or section within an HTML document. It is a versatile container that allows you to group and structure content, apply styling, or target specific sections with CSS or JavaScript.
-- **`<span>`**: The **`<span>`** tag is an inline element that is used to mark up small portions of text or inline elements within a larger block of content. It is typically used to apply styling, target specific sections with CSS or JavaScript, or provide hooks for manipulating the content programmatically.
+- `<div>`: The `<div>` tag is a block-level element that is used to create a division or section within an HTML document. It is a versatile container that allows you to group and structure content, apply styling, or target specific sections with CSS or JavaScript.
+- `<span>`: The `<span>` tag is an inline element that is used to mark up small portions of text or inline elements within a larger block of content. It is typically used to apply styling, target specific sections with CSS or JavaScript, or provide hooks for manipulating the content programmatically.
         
-While the **`<div>`** and **`<span>`** tags are not semantic in nature, they serve as essential tools for organizing and styling content on a web page. They provide flexibility and control over the layout and presentation of elements, allowing you to create custom designs and structure your content as needed.
+While the `<div>` and `<span>` tags are not semantic in nature, they serve as essential tools for organizing and styling content on a web page. They provide flexibility and control over the layout and presentation of elements, allowing you to create custom designs and structure your content as needed.
         
-However, it's important to prioritize the use of semantic HTML elements, such as **`<header>`**, **`<nav>`**, **`<main>`**, **`<article>`**, **`<section>`**, and others we discussed earlier, whenever they are applicable and convey the meaning of the content more accurately. Semantic HTML helps improve accessibility, search engine optimization, and code maintainability.
+However, it's important to prioritize the use of semantic HTML elements, such as `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, and others we discussed earlier, whenever they are applicable and convey the meaning of the content more accurately. Semantic HTML helps improve accessibility, search engine optimization, and code maintainability.
         
-In summary, while the **`<div>`** and **`<span>`** tags are not semantic tags themselves, they play a crucial role in organizing and styling content within an HTML document. However, it's best to use semantic tags whenever possible to provide meaningful structure and enhance the accessibility and understandability of your web pages.
+In summary, while the `<div>` and `<span>` tags are not semantic tags themselves, they play a crucial role in organizing and styling content within an HTML document. However, it's best to use semantic tags whenever possible to provide meaningful structure and enhance the accessibility and understandability of your web pages.
         
 ---
         
